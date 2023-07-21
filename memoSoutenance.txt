@@ -1,0 +1,20 @@
+			
+	HTML premier langage suivi de CSS afin d'embellir notre page web.​
+
+	Mot-clé: SGBD
+
+	Oracle, IBM DB2 et Microsoft SQL Server se sont partagés en maîtres le paysage relationnel pendant longtemps​
+
+	Modélisation de la base de donnée : 1ère méthode MERISE diagramme UML​
+
+	Contraintes ;  table de jointure (permet de relier 2 tableaux ) ; clé primaire; clé etrangère(pour définir une table de clé étrangère se baser sur le max);​ 
+
+	Cardinalité(doit etre definie en amont car permet d'organiser les tables et colonnes)
+	(Les cardinalités sont des caractères (0,1, n) qui fonctionnent par couple et qui sont présents de chaque côté d'une association   
+	pour définir une clé étrangère dans une table, se baser sur la valeur max)
+
+	Les clé primaire sont auto incrémentées
+
+
+
+​

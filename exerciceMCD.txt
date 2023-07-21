@@ -1,0 +1,7 @@
+Tracer le MCD correspondant aux règles suivantes :
+
+ Un film est repéré par un numéro.
+
+ Il possède un titre, un genre, un ou plusieurs acteurs et une date de parution.
+
+ Les films sont classés par genre mais aussi par acteur

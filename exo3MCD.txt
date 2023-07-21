@@ -1,0 +1,8 @@
+
+		Une entreprise de production de bonbons embauche des stagiaires pour tester de nouveaux produits et distribuer des notes.
+
+		Les stagiaires doivent insérer le prénom, la couleur des yeux, le sexe, le nom du bonbon, la saveur, la date du test et la quantité
+		de bonbon qu'ils ont mangée.
+
+
+		Modélisez la base de données de cette entreprise à l'aide de la méthode MERISE.

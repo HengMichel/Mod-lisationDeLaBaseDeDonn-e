@@ -1,0 +1,95 @@
+
+
+	Un Modèle Conceptuel de Données est la formalisation de la structure et de la signification des informations 
+	décrivant des objets et des associations perçus d'intérêt dans le domaine étudié,
+ 	en faisant abstraction des solutions et contraintes techniques informatiques d'implantation en base de données.
+
+
+	Un MCD est, dans la culture francophone, exprimé en entité-relation Merise qui comporte les concepts basiques suivants :
+
+
+	Entité : modélisation d'un objet d'intérêt (en terme de gestion) pour l'utilisateur,
+
+	Relation : modélisation d'une association entre deux ou plusieurs entités
+
+	Cardinalités : modélisation des participations mini et maxi d'une entité à une relation
+
+	Propriétés : modélisation des informations descriptives rattachées à une entité ou une relation
+
+	Identifiant: modélisation des propriétés contribuant à la détermination unique d'une occurrence d'un entité.
+
+
+
+	Le MCD a pour objectif de modéliser le discours – métier. Il ne doit pas anticiper sur les solutions relationnelles de mise en œuvre. 
+
+	C'est un contresens (ou une confusion ) que parler de MCD en termes de tables, clés primaires, clés étrangères ; il vaut mieux se situer directement au niveau MLD (si l'on y est plus à l'aise ).
+
+	Cependant, plus de trente années d'expérience ont démontré l'intérêt de passer par une telle étape avant de passer à une structure logique,
+	 apportant une meilleure résilience aux bases de données ainsi construites (surtout lorsqu'elles atteignent des tailles professionnelles). 
+
+
+
+
+
+	1- Etudier le cahier des charges
+
+	2- Déterminer des éléments principaux, qui nous serviront comme tables ou attributs dans la base de données (tout dépend des besoins du client)  
+
+	3- Déterminer les actions (des verbes utilisés dans le cahier des charges)
+	
+	4- Les points précedents nous permettront de déterminer les cardinalités afin de pouvoir associer les tables dans une base de données 
+	(l'association des tables se fait grâce aux clés primaires et clés étrangères)
+
+	5- Une fois les cardinalités identifiées, nous pouvons définir si nous avons besoin d'une table de jointure ou pas pour relier les tables dans la base de données
+
+		Exemple dans le support avec le lien suivant :
+
+		https://drive.google.com/file/d/1G6r1BMf1kppyPvSQL6IT237ml8okugJ5/view?pli=1
+
+	Tracer le MCD correspondant aux règles suivantes :
+
+	Un film est repéré par un numéro.
+
+	 Il possède un titre, un genre, un ou plusieurs acteurs et une date de parution. 
+
+	Les films sont classés par genre mais aussi par acteur
+
+	1- Dans cet exemple les éléments principaux sont :
+
+	film, titre, genre, acteur, date de parution :
+
+	Nous allons définir trois tables de : film, genre et acteur
+	les deux autres éléments, titre et date de parution, seront concidérés comme attributs dans les différentes tables
+
+	2- Les actions sont :
+	repérer, posséder, classer
+
+	3- Les cardinalités :
+
+	- l'élément central de la base de données dans cet exemple est la table film 
+
+	I/ Relation entre les tables 'film' et 'acteur' :
+
+	    a) un film possède au minimum 1 et au maximum plusieurs(n) acteurs 
+
+	    b) un acteur peut jouer dans au minimum un et au maximum plusieurs(n) film
+
+	    c) conclusion : les maximums dans les cardinalités (n,n), entrainent la création d'une table de jointure (ACTEUR_FILM).
+
+	 Autrement dit les clés primaires des deux tables 'film' et 'acteur' seront affichées en tant que clés étrangères dans la table de jointure
+
+	II/ Relation entre les tables 'film' et 'genre' :
+  	
+	    a) un film est classé par au minimum 1 et au maximum 1 genre(selon le cahier des charges)
+  	
+	    b) un genre appartient au minimum 1 et au maximum plusieurs film
+    
+	    c) conclusion : les maximums dans les cardinalités (1,n), entrainent la création d'une clé étrangère dans l'une des tables. 
+
+	Attention c'est important de savoir quelle table reçoit la clé etrangère (nous savons qu'une clé étrangère dans une table correspond à la clé primaire de la table associée).
+
+	Dans notre cas la table film contiendra l'id de genre (clé primaire dans la table genre) en tant que clé étrangère
+
+
+
+ 
