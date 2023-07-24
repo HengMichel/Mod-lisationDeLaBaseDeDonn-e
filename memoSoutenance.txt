@@ -17,4 +17,16 @@
 
 
 
-​
+​	
+
+
+	Pourquoi on utilise la méthode Merise ?
+
+
+	MERISE - Initiation à la conception de systèmes d'information
+
+	MERISE est une méthode de conception, de développement et de réalisation de projets informatiques.
+
+	Le but de cette méthode est d'arriver à concevoir un système d'information. 
+	
+	La méthode MERISE est basée sur la séparation des données et des traitements à effectuer en plusieurs modèles conceptuels et physiques.
