@@ -1,0 +1,40 @@
+
+François est directeur d'une maison d'éducation. 
+Des enfants sont à sa charge quand un juge décide de les protéger de leur entourage ou de les placer. 
+
+Ils sont alors soit en internat soit en famille d'accueil à l'extérieur de l'internat. 
+
+Ils y restent de 1 à 5 ans et 2 ans en moyenne.
+
+Son équipe se compose de 8 éducateurs, d'une psychologue, d'une assistance sociale, d'une éducatrice scolaire et de 5 personnes des services généraux
+. 
+Il est en contact avec des centres médicaux psychopédagogiques, des orthophonistes, des instituteurs et des professeurs des écoles.
+Il reçoit les demandes de placement du juge (ordonnance de placement provisoire) valable de 6 mois à 2 ans, rend ensuite un rapport sur le "vécu" de l'enfant au juge.
+
+Son rôle est de recruter et d'aider les éducateurs et les autres personnes.
+
+Les éducateurs choisissent les familles d'accueil, les visitent, suivent le comportement des enfants à leur charge vis-à-vis de l'instituteur ou d'autres personnes.
+ 
+Les éducateurs perçoivent les comportements ou les caractéristiques des enfants (câlin, rebelle, ouvert, réservé, timide, insoumis..., une vingtaine en tout), et relient leur comportement à leur passé, 
+des événements (accident de voiture, décès d'un proche...) ou de situations (internat, placement familial, une dizaine en tout). 
+
+Ils essayent de juger les personnes de leur entourage (mère folle, père macho...) et leurs relations avec elles (père qui le rejette, mère possessive...) en fonction de leur passé.
+
+Ils leur conseillent alors d'adopter une relation plus adaptée.
+
+Ils peuvent aussi conseiller leur entourage (famille d'accueil trop laxiste, visites à effectuer...). 
+Le psychologue aide les éducateurs, les familles d'accueil. 
+
+Il intervient rarement avec l'enfant, il sert surtout de conseil.
+ 
+L'assistante sociale recrute les familles d'accueil, appelées aussi assistantes maternelles, renouvelle les agréments donnés par la DDASS aux familles d'accueil, 
+fait un bilan avec elles dans le cas où l'enfant doit partir, recherche les établissements scolaires.
+
+Les enfants partent quand le juge le décide où à 21 ans. Jusqu'à 18 ans, ils sont obligés de se plier à la décision du juge. Entre 18 et 21 ans, ils peuvent s'accorder avec la DDASS pour rester en placement ou en famille d'accueil.
+A partir de 21 ans, ils peuvent rester dans la famille d'accueil mais celle-ci ne sera plus rémunérée.
+
+On considère 70 enfants (15 en internat et 55 en famille d'accueil), 50 personnes exerçant une dizaine de fonctions au total, 35 familles d'accueil, 
+30 établissements, une dizaine de types d'événements et de types de situations différents, 20 caractéristiques. 
+Chaque enfant possède une dizaine de situations et d'événements et une quinzaine de relations.
+
+Construisez un MCD.
