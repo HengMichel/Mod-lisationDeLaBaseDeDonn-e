@@ -22,7 +22,8 @@
 
 	Le MCD a pour objectif de modéliser le discours – métier. Il ne doit pas anticiper sur les solutions relationnelles de mise en œuvre. 
 
-	C'est un contresens (ou une confusion ) que parler de MCD en termes de tables, clés primaires, clés étrangères ; il vaut mieux se situer directement au niveau MLD (si l'on y est plus à l'aise ).
+	C'est un contresens (ou une confusion ) que parler de MCD en termes de tables, clés primaires, clés étrangères ;
+	il vaut mieux se situer directement 	au niveau MLD (si l'on y est plus à l'aise ).
 
 	Cependant, plus de trente années d'expérience ont démontré l'intérêt de passer par une telle étape avant de passer à une structure logique,
 	 apportant une meilleure résilience aux bases de données ainsi construites (surtout lorsqu'elles atteignent des tailles professionnelles). 
@@ -40,7 +41,8 @@
 	4- Les points précedents nous permettront de déterminer les cardinalités afin de pouvoir associer les tables dans une base de données 
 	(l'association des tables se fait grâce aux clés primaires et clés étrangères)
 
-	5- Une fois les cardinalités identifiées, nous pouvons définir si nous avons besoin d'une table de jointure ou pas pour relier les tables dans la base de données
+	5- Une fois les cardinalités identifiées, nous pouvons définir si nous avons besoin d'une table de jointure ou 
+	pas pour relier les tables dans la base de données
 
 		Exemple dans le support avec le lien suivant :
 
